@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: #222121fd;
+    color:wheat;
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.navbar a{
+    margin: 0 20px; 
+    color: wheat;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: red;
+    text-decoration: none;
+
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 40px 22% 0;
+
+}
+#home-content{
+    max-width: 800px;
+}
+
+#home-content h1{
+    font-size: 80px;
+    line-height: 1.2;
+
+}
+
+#home-content p{
+    font-size: 30px;
+    margin: 20px 0;
+    color: #333;
+}
+.img-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+#my-info {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #111;
+    color: #f5e0c0;
+}
+
+#my-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f5e0c0;
+    background-color: #111;
+}
+
+
+#my-info p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#my-info a {
+    margin: 0 10px; 
+    font-size: 30px; 
+    color: wheat; 
+    transition: color 0.3s ease; 
+}
+
+#my-info a:hover {
+    color: red;
+    text-decoration: none; 
+}
+
+#education{
+    padding: 50px 20%;
+    background-color: rgb(15, 15, 15); 
+    color: wheat; 
+    text-align: center;   
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: rgb(15, 15, 15); 
+    table-layout: fixed;
+}
+h2 {
+    color: wheat;
+    background-color: rgb(15, 15, 15); 
+}
+table, th, td {
+    border: 1px solid wheat;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: wheat;
+}
+
+tbody tr:hover {
+    background-color: red
+}
+
+
+
